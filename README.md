@@ -25,5 +25,7 @@ cd Social-Media
 # Install the dependencies
 npm install
 
+## Usage
+
 # Start the project
 npm run dev
