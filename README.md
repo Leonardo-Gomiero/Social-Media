@@ -1,7 +1,7 @@
 # Social Media
 
 ## Description
-This is a social media project developed using ReactJS with TypeScript and Vite. The goal of this project is to provide a simple platform where users can create profiles, post updates, and interact with other users.
+This is a social media project developed using ReactJS with TypeScript and Vite. The goal of this project is to provide a simple platform where users can interact with other users' posts.
 
 ## Table of Contents
 1. [Installation](#installation)
