@@ -6,11 +6,7 @@ This is a social media project developed using ReactJS with TypeScript and Vite.
 ## Table of Contents
 1. [Installation](#installation)
 2. [Usage](#usage)
-3. [Contributing](#contributing)
-4. [License](#license)
-5. [Authors and Acknowledgments](#authors-and-acknowledgments)
-6. [Changelog](#changelog)
-7. [Visuals](#visuals)
+3. [Features](#features)
 
 ## Installation
 To install and set up the project, follow these steps:
@@ -24,8 +20,32 @@ cd Social-Media
 
 # Install the dependencies
 npm install
-
+```
 ## Usage
 
-# Start the project
+After installation, you can start the project using the command:
+
+```bash
 npm run dev
+```
+The project will start in development mode and be available at http://localhost:3001.
+
+## Features
+
+### Interact with Posts
+
+- **Like or Unlike Posts:**
+  - Click the "Applause" button below any post to show your appreciation.
+  - Click the "Applause" button add even more applause points.
+
+- **Comment on Posts:**
+  - Click on the "Leave a comment" text box below the post.
+  - Enter your comment in the provided text box.
+  - Click "Publish" to add your comment.
+
+### Manage Comments
+
+- **Delete Your Own Comments:**
+  - If you change your mind about a comment, you can delete it.
+  - Navigate to the post with your comment.
+  - Find your comment and click the trash can icon button next to it.
