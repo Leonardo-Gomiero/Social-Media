@@ -10,7 +10,7 @@ interface CommentProps {
 
 export function Comment({ content, onDeleteComment }: CommentProps) {
     const [likeCount, setLikeCount] = useState(0);
-    
+
     function handleDeleteComment() {
         onDeleteComment(content);
     }
@@ -18,10 +18,15 @@ export function Comment({ content, onDeleteComment }: CommentProps) {
     function handleLikeComment() {
         setLikeCount(likeCount + 1);
     }
-    
+
     return (
         <div className={styles.comment}>
-            <Avatar hasBorder={false} src="https://br.web.img3.acsta.net/pictures/18/07/25/22/12/5616819.jpg" alt=""></Avatar>
+            <Avatar
+                hasBorder={false}
+                src="https://br.web.img3.acsta.net/pictures/18/07/25/22/12/5616819.jpg"
+                alt=""
+            >
+            </Avatar>
 
             <div className={styles.commentBox}>
                 <div className={styles.commentContent}>
@@ -41,7 +46,7 @@ export function Comment({ content, onDeleteComment }: CommentProps) {
 
                 <footer>
                     <button>
-                        <ThumbsUp onClick={(handleLikeComment)}/>
+                        <ThumbsUp onClick={(handleLikeComment)} />
                         Applause <span>{likeCount}</span>
                     </button>
                 </footer>
